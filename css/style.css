@@ -21,10 +21,12 @@ ul {
 
 a {
   color: #4b4b4b;
-  text-decoration: none; }
+  text-decoration: none;
+  border: none; }
 
 a:hover {
-  color: #999; }
+  color: #999;
+  border: none; }
 
 header {
   width: 100%;
