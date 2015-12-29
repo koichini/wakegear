@@ -3,7 +3,7 @@
 $font: "din",'Asap',"メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
 @mixin box{
   width: 50%;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 979px){
     width: 100%;
   }
 }
@@ -27,7 +27,7 @@ $font: "din",'Asap',"メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W
 }
 @mixin float {
   float: left;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 979px){
     float: none;
     width: 100%;
   }
@@ -77,6 +77,10 @@ nav{
     img{
       width: 48px;
       height: 48px;
+      @media screen and (max-width: 979px){
+        width: 80px;
+        height: 80px;
+      }
     }
   }
   ul#menu{
@@ -92,7 +96,7 @@ nav{
     z-index: 10;
     li{
       @include txt_style;
-      font-size: 21px;
+      font-size: 1.1em;
       height: 1.8em;
       padding-left: 10px;
       a{
@@ -145,7 +149,7 @@ section#story{
   .art_box{
     margin: 60px auto 120px;
     width: 70%;
-    @media screen and (max-width: 767px){
+    @media screen and (max-width: 979px){
       width: 100%;
     }
     height: auto;
@@ -179,7 +183,7 @@ section#product{
   #lineup{
     margin: 0 auto 60px;
     width: 80%;
-    @media screen and (max-width: 767px){
+    @media screen and (max-width: 979px){
       width: 100%;
     }
     .goods{
