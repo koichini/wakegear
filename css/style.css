@@ -106,7 +106,7 @@ section#concept .l_box {
     @media screen and (max-width: 979px) {
       section#concept .l_box p {
         padding: 5px;
-        width: 90%;
+        width: 75%;
         text-align: left; } }
 section#concept .r_box {
   width: 50%;
@@ -143,7 +143,7 @@ section#story {
     @media screen and (max-width: 979px) {
       section#story p {
         padding: 5px;
-        width: 90%;
+        width: 75%;
         text-align: left; } }
   section#story .art_box {
     margin: 60px auto 120px;
@@ -174,7 +174,7 @@ section#product {
     @media screen and (max-width: 979px) {
       section#product p {
         padding: 5px;
-        width: 90%;
+        width: 75%;
         text-align: left; } }
   section#product h3 {
     margin-top: 48px; }
