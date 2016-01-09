@@ -105,7 +105,8 @@ section#concept .l_box {
     line-height: 24px; }
     @media screen and (max-width: 979px) {
       section#concept .l_box p {
-        padding: 5px; } }
+        padding: 5px;
+        width: 80%; } }
 section#concept .r_box {
   width: 50%;
   font-family: "din", "Asap", "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
@@ -140,7 +141,8 @@ section#story {
     line-height: 24px; }
     @media screen and (max-width: 979px) {
       section#story p {
-        padding: 5px; } }
+        padding: 5px;
+        width: 80%; } }
   section#story .art_box {
     margin: 60px auto 120px;
     width: 70%;
@@ -169,7 +171,8 @@ section#product {
     line-height: 24px; }
     @media screen and (max-width: 979px) {
       section#product p {
-        padding: 5px; } }
+        padding: 5px;
+        width: 80%; } }
   section#product h3 {
     margin-top: 48px; }
   section#product a {

@@ -21,6 +21,7 @@ $font: "din",'Asap',"メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W
     line-height: 24px;
     @media screen and (max-width: 979px){
       padding: 5px;
+      width: 80%;
     }
   }
 }
@@ -59,9 +60,14 @@ ul{
 a{
   color: #4b4b4b;
   text-decoration: none;
+  border: none;
 }
 a:hover{
   color: #999;
+  border: none;
+}
+a:active{
+  border: none;
 }
 header{
   width: 100%;
