@@ -225,6 +225,20 @@ address{
       text-align: center;
       @include txt_style;
       }
+    .right{
+      float: right;
+    }
+    .left{
+      float: left;
+    }
+    @media screen and (max-width: 979px){
+      .right{
+        float: none;
+      }
+      .left{
+        float: none;
+      }
+    }
     }
   #sns{
     width: 50%;
@@ -244,12 +258,6 @@ address{
           height: 50px;
         }
         }
-        @media screen and (max-width: 979px){
-          li{
-            text-align: center;
-            float: none;
-          }
-        }          
       }
     }
   }

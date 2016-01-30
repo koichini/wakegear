@@ -229,6 +229,15 @@ address {
       font-family: "din", "Asap", "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
       font-weight: normal;
       letter-spacing: 1.7px; }
+    address .txt .right {
+      float: right; }
+    address .txt .left {
+      float: left; }
+    @media screen and (max-width: 979px) {
+      address .txt .right {
+        float: none; }
+      address .txt .left {
+        float: none; } }
   address #sns {
     width: 50%;
     margin: 30px auto;
@@ -245,10 +254,6 @@ address {
         address #sns ul li img {
           width: 50px;
           height: 50px; }
-      @media screen and (max-width: 979px) {
-        address #sns ul li {
-          text-align: center;
-          float: none; } }
 
 footer {
   margin: 0;
