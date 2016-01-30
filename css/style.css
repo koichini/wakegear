@@ -229,6 +229,9 @@ address {
       font-family: "din", "Asap", "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
       font-weight: normal;
       letter-spacing: 1.7px; }
+      @media screen and (max-width: 979px) {
+        address .txt .prof_txt {
+          width: 100%; } }
     address .txt .right {
       float: right; }
     address .txt .left {
@@ -250,7 +253,8 @@ address {
       address #sns ul li {
         width: 33%;
         text-align: center;
-        float: left; }
+        float: left;
+        margin: 0; }
         address #sns ul li img {
           width: 50px;
           height: 50px; }
