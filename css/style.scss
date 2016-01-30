@@ -178,7 +178,7 @@ section#product{
     margin: 24px auto 60px;
     text-align: center;
   }
-  ul.slider{
+  ul{
     width: 100%;
     height: auto;
     padding: 0;
@@ -244,6 +244,12 @@ address{
           height: 50px;
         }
         }
+        @media screen and (max-width: 979px){
+          li{
+            text-align: center;
+            float: none;
+          }
+        }          
       }
     }
   }
